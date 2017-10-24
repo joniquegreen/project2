@@ -1,5 +1,49 @@
-div {
-  outline: 1px
-  outline-color: deepgreen
+*{
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  outline: solid purple;
+  height: 400px;
+  width: 400px
+}
 
+.b1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 50%;
+  background-color: blueviolet;
+}
+
+.b2{
+  position:absolute;
+  top: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+}
+
+.b3{
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  height: 50%;
+  width: 50%;
+  background-color: forestgreen;
+}
+
+.b4{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+
+.box{
+  border: 2px solid purple;
 }
